@@ -1,0 +1,35 @@
+body {
+  max-height: fit-content;
+}
+/* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+  position: absolute;
+  width: 100%;
+}
+
+/* Add some content at the bottom of the video/page */
+.content {
+  position: fixed;
+  background: darkred;
+  opacity: 0.9;
+  color: #f1f1f1;
+  width: 100%;
+  padding: 12px;
+  bottom: 0;
+}
+
+button {
+  font-weight: bold;
+}
+h1 {
+  font-size: 40px;
+}
+h4 {
+  font-size: 25px;
+}
+input {
+  height: 32px;
+}
+button {
+  height: 40px;
+}
